@@ -6,43 +6,73 @@
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
-    <div class="col-xs-10 col-sm-6 col-md-6">
-        <div class="card card-style mb-2">
-            <div class="card-body">
-                <div class="chart-container" style="position: relative;">
-                    <canvas id="appl_status"></canvas>
+    <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label> Deaf and Dumb Scholarship Amount</label>
+                    <div class="chart-container" style="position: relative;">
+                        <img src="/static/assets/img/dashboard/dndamt_byyr.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-10  col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label>Deaf and Dumb Scholarship Count</label>
+                    <div class="chart-container" style="position:relative;">
+                        <img src="/static/assets/img/dashboard/dndnum_byyr.png">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-xs-10 col-sm-6 col-md-6">
-        <div class="card card-style mb-2">
-            <div class="card-body">
-                <div class="chart-container" style="position: relative;">
-                    <canvas id="schoamt_distype"></canvas>
+    <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label>Locomotive Scholarship Amount</label>
+                    <div class="chart-container" style="position: relative;">
+                        <img src="/static/assets/img/dashboard/locoamt_byyr.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-10 col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label>Locomotive Scholarship Count</label>
+                    <div class="chart-container" style="position: relative;">
+                        <img src="/static/assets/img/dashboard/loconum_byyr.png">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-xs-10 col-sm-6 col-md-6">
-        <div class="card card-style mb-2">
-            <div class="card-body">
-                <div class="chart-container" style="position: relative;">
-                    <canvas id="schocount_distype"></canvas>
+    <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label>Count of Students' Scholarships</label>
+                    <div class="chart-container" style="position: relative;">
+                        <img src="/static/assets/img/dashboard/schocount_distype.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-10 col-sm-6 col-md-6">
+            <div class="card card-style mb-2">
+                <div class="card-body">
+                    <label>Amount of Students' Scholarships</label>
+                    <div class="chart-container" style="position: relative;">
+                        <img src="/static/assets/img/dashboard/schoamt_distype.png">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-xs-10 col-sm-6 col-md-6">
-        <div class="card card-style mb-2">
-            <div class="card-body">
-                <div class="chart-container" style="position: relative;">
-                    <canvas id="mentalamt_byyr"></canvas>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-10 col-sm-6 col-md-6">
+    <!-- <div class="col-xs-10 col-sm-6 col-md-6">
         <div class="card card-style mb-2">
             <div class="card-body">
                 <div class="chart-container" style="position: relative;">
@@ -104,7 +134,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 {% endblock content %}
 
 <!-- Specific Page JS goes HERE  -->
